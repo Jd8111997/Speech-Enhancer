@@ -15,8 +15,7 @@ Download the train datasets and test datasets, then extract them into your direc
 You can use other dataset, but change the path accordingly in preprocess_final.
 
 ## Pre-processing
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+You can change other parameter such as sample_rate, window_size etc. Default sample rate is set to 8KHz and window_size is 8192.
+```python
+preprocess_final.py
 ```
