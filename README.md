@@ -14,3 +14,8 @@ Download the train datasets and test datasets, then extract them into your direc
 
 You can use other dataset, but change the path accordingly in preprocess_final.
 
+## Pre-processing
+'''
+python preprocess_final
+'''
+
