@@ -27,3 +27,5 @@ optional arguments:
 --batch_size             train batch size [default value is 128]
 --num_epochs             train epochs number [default value is 12]
 ```
+At every four epoch the test results and model weights will be saved in `segan_data_out` . 
+Again adjust the paths and parameters in `main.py` according to your needs.  
