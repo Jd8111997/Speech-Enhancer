@@ -29,3 +29,10 @@ optional arguments:
 ```
 At every four epoch the test results and model weights will be saved in `segan_data_out`.    
 Again adjust the paths and parameters in `main.py` according to your needs.  
+
+## Enhancing audio
+
+```python
+python Generate_audio.py ----file_name p212_982.wav --time_stamp 20200816_0531 --state state-5.pkl
+```
+Give a noisy audio clip as an input to `Generate_audio` and set the appropriate time_stame and state from segan_data_out that is created from `main.py` to load saved weights of generator.
