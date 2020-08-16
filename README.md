@@ -15,8 +15,8 @@ Download the train datasets and test datasets, then extract them into your direc
 You can use other dataset, but change the path accordingly in `preprocess_final`.
 
 ## Pre-processing
-You can change other parameter such as sample_rate, window_size etc in `preprocess_final`. 
-Default sample rate is set to 8KHz and window_size is 8192. You can downsample the audio as your needs, by changing sample_rate in `downsample_8k`.
+You can change other parameter such as sample_rate, window_size etc in `preprocess_final`.    
+Default sample rate is set to 8KHz and window_size is 8192. You can downsample the audio as your needs, by changing sample_rate in `downsample_8k`.   
 By default the preprocessed datasets location is set to your current working directory.
 
 ## Training
@@ -27,5 +27,5 @@ optional arguments:
 --batch_size             train batch size [default value is 128]
 --num_epochs             train epochs number [default value is 12]
 ```
-At every four epoch the test results and model weights will be saved in `segan_data_out` . 
+At every four epoch the test results and model weights will be saved in `segan_data_out`.    
 Again adjust the paths and parameters in `main.py` according to your needs.  
